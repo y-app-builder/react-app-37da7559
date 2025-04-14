@@ -91,6 +91,17 @@ const App: React.FC = () => {
           Increase
         </button>
       </div>
+      <footer style={{
+        position: 'absolute',
+        bottom: '10px',
+        width: '100%',
+        textAlign: 'center',
+        padding: '10px',
+        backgroundColor: '#f8f9fa',
+        boxShadow: '0 -2px 4px rgba(0,0,0,0.1)'
+      }}>
+        <p>hi there</p>
+      </footer>
     </div>
   );
 };
